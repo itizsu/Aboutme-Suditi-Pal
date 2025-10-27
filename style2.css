@@ -1,0 +1,126 @@
+.top{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: ;
+    text-align:center;
+    font-size:30px ;
+    background-color:#28d1d170;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: thick double #290232;
+    border-style: inset;
+    }  
+
+.typedheading {
+    display: inline-block; /* needed for typing effect */
+    white-space: nowrap;   /* prevents text wrapping */
+    overflow: hidden;      /* hides text until revealed */
+    border-right: 3px solid #290232; /* blinking cursor */
+    width: 0; /* start hidden */
+
+    animation: typing 4s steps(30, end) forwards, 
+               blink 0.6s step-end infinite;
+}
+
+/* typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50ch } /* adjust ch count to match text length */
+}
+
+/* blinking cursor */
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #290232; }
+}
+
+body
+{background-image: url(pexels-lum3n-44775-311039.jpg);}
+.content
+{   padding: 50px 70px;
+    border-radius: 10px 100px / 120px;
+    background: #c1e7c1;
+     border: 2px solid #00ccff;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:rgba(90, 25, 99, 0.616);
+    position:center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.button_container
+{
+    display: flex;             /* Aligns children (buttons) in one row */
+    justify-content: center;   /* Centers them horizontally */
+    gap:50px;
+    font-size:45px;
+}
+.button_text
+{   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+    gap:50px;
+}
+.Aboutme1
+{
+    background-color: rgba(130, 56, 140, 0.741);
+    padding: 50px 70px;
+    border-radius: 10px 100px / 120px;
+    margin-top: 40px;
+    margin-left:40px;
+    margin-right:500px;
+    font-size:25px;
+    border: 2px solid #00ccff;
+    display:flex; /*enables side by side view.*/
+    align-content:left;
+    
+}
+.Aboutme2
+{
+    background-color: rgba(130, 56, 140, 0.741);
+    padding: 10px 20px;
+    border-radius: 10px 100px / 120px; 
+    margin-left:1200px;
+    margin-right:30px;
+    margin-bottom:500px;
+    align-items:right;
+}
+.favs
+{
+    background-color: rgba(130, 56, 140, 0.741);
+    padding: 50px 70px;
+    border-radius: 10px 100px / 120px;
+    margin-top: 40px;
+    margin-left:500px;
+    margin-right:40px;
+    font-size:25px;
+    border: 2px solid #00ccff;
+    display:flex; /*enables side by side view.*/
+    
+}
+.achievements
+{
+    background-color: rgba(130, 56, 140, 0.741);
+    padding: 50px 70px;
+    border-radius: 10px 100px / 120px;
+    margin-top: 40px;
+    margin-left:40px;
+    margin-right:500px;
+    font-size:25px;
+    border: 2px solid #00ccff;
+    display:flex; /*enables side by side view.*/
+}
+.skillz
+{
+    background-color: rgba(130, 56, 140, 0.741);
+    padding: 50px 70px;
+    border-radius: 10px 100px / 120px;
+    margin-top: 40px;
+    margin-left:500px;
+    margin-right:40px;
+    font-size:25px;
+    border: 2px solid #00ccff;
+    display:flex; /*enables side by side view.*/
+}
+
+

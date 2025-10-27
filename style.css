@@ -1,0 +1,62 @@
+body1{
+    
+    button{
+  font-size: 22px;     
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 30px 50px;  
+  border:thick double #32a1ce;;        
+  border-radius: 10px 100px / 120px;
+  background-color: #c6f6c7d2;
+  color: black;
+  margin-left: 0%;
+  margin-right:0%;
+  margin-inline: 10%;
+
+  }
+}
+body{
+    background-image:url(bgabtme1.png);
+    background-repeat: no-repeat;    
+    background-size: cover;           
+    background-position: center;     
+    background-attachment: fixed;     
+    margin-top: 10%;
+    
+}
+div{
+    background-image: url(tagpic2.png);
+    background-attachment: scroll;
+    backface-visibility:hidden;
+
+}
+.button-container {
+  display: flex;             /* Aligns children (buttons) in one row */
+  justify-content: center;   /* Centers them horizontally */
+  gap: 20px;                 /* Adds space between buttons */
+}
+
+.button-container button {
+  padding: 30px 40px;
+  border-radius: 10px 100px / 120px;
+  background: #c1e7c1;
+  border: 2px solid #00ccff;
+  font-size: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  background-image: url(tagpic2.png);
+  background-attachment: scroll;
+  backface-visibility:hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    height: 100%;            /* take full height of body */
+  ;
+}
+btn {
+    padding: 10px 20px; /* top-bottom | left-right */
+}
+
+
